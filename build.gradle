@@ -1,0 +1,9 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'fr.turri:aXMLRPC:1.9.0', 'fr.turri:jISO8601:0.2'
+}
