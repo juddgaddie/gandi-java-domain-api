@@ -28,6 +28,10 @@ public class GandiClient {
         this(service, apiKey, debug ? FLAGS_DEBUG : FLAGS_NONE);
     }
 
+    public GandiClient(final Service service, final String apiKey) {
+        this(service, apiKey, false);
+    }
+
     private GandiClient(final Service service, final String apiKey, final int flags) {
         this.xmlrpcClient = new XMLRPCClient(service.getUrl(), flags);
         this.apiKey = apiKey;
