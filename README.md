@@ -23,7 +23,7 @@ Example Usage
 ```
 
 ### Build
-
+[![Build Status](https://travis-ci.org/juddgaddie/gandi-java-domain-api.svg?branch=master)](https://travis-ci.org/juddgaddie/gandi-java-domain-api)
 ```bash
 ./gradlew build
 ```
